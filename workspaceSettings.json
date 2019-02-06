@@ -1,6 +1,6 @@
 {
     "python.formatting.provider": "autopep8",
-    "python.pythonPath": "/Users/jayanth/workspace/django-scaffold/env/bin/python3",
+    "python.pythonPath": "python env path",
     "python.linting.pep8Enabled": false,
     "python.linting.pydocstyleArgs": [
         "--ignore=D400",
