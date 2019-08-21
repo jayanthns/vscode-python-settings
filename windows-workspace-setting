@@ -1,0 +1,30 @@
+    {
+        "terminal.integrated.shellArgs.windows": [
+            "-ExecutionPolicy",
+            "Bypass"
+        ],
+        "python.formatting.provider": "autopep8",
+        "python.pythonPath": "env\\Scripts\\python.exe",
+        "python.linting.pep8Enabled": true,
+        "python.linting.pydocstyleArgs": [
+            "--ignore=D400",
+            "--ignore=D4",
+            "--max-line-length=90",
+        ],
+        "python.linting.pep8Args": [
+            "--ignore=E303",
+            "--max-line-length=90"
+        ],
+        "python.formatting.autopep8Args": [
+            "--max-line-length=90"
+        ],
+        "editor.rulers": [
+            79,
+            90,
+        ],
+        "python.formatting.autopep8Path": "autopep8",
+        "editor.formatOnSave": true,
+        "python.linting.pylintEnabled": false,
+        "python.linting.enabled": true,
+        "python.linting.pydocstyleEnabled": false,
+    }
